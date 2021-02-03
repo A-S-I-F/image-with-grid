@@ -22,10 +22,6 @@ svg {
     transition: .5s;
 }
 
-.row {
-
-}
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
