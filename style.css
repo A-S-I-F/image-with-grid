@@ -15,7 +15,7 @@ h3 {
 .nav-link:hover {
     color: red;
 }
-
+.col-sm--4 when the call is ongoing and under cntrol
 .nav-link:active {
     color: red;
 }
@@ -32,6 +32,7 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .img-1 {
@@ -102,4 +103,80 @@ svg {
     margin-left: 10px;
 }
 
+
+@media screen and (max-width: 800px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 3vw);
+        grid-column-gap: .5rem;
+        grid-row-gap: .1rem;
+    }
+
+    .img-item {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .img-1 {
+        grid-column: 1 / 5;
+        grid-row: 1 / 10;
+    }
+    .img-2 {
+        grid-column: 5 / 9;
+        grid-row: 1 / 10;
+    }
+    .img-3 {
+        grid-column: 1 / 5;
+        grid-row: 10 / 14;
+    }
+    .img-4 {
+        grid-column: 5 / 9;
+        grid-row: 10 / 14;
+    }
+    .img-5 {
+        grid-column: 1 / 5;
+        grid-row: 14 / 22;
+    }
+    .img-6 {
+        grid-column: 5 / 9; 
+        grid-row: 14 / 22;
+    }
+    .img-7 {
+        grid-column: 1 / 5;
+        grid-row: 22 / 28;
+    }
+    .img-8 {
+        grid-column: 5 / 9;
+        grid-row: 22 / 28;
+    }
+    .img-9 {
+        grid-column: 1 / 5;
+        grid-row: 28 / 34;
+    }
+    .img-10 {
+        grid-column: 5 / 9;
+        grid-row: 28 / 34;
+    }
+    .img-11{
+        grid-column: 1 / 5;
+        grid-row: 34 / 40;
+    }
+    .img-12 {
+        grid-column: 5 / 9;
+        grid-row: 34 / 40;
+    }
+    
+    .img-13 {
+        grid-column: 1 / 5;
+        grid-row: 40 / 46;
+    }
+    
+    .img-14 {
+        grid-column: 5 / 9;
+        grid-row: 40 / 46;
+    }
+}
 
