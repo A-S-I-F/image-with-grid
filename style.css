@@ -16,6 +16,10 @@ h3 {
     color: red;
 }
 
+.nav-link:active {
+    color: red;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
